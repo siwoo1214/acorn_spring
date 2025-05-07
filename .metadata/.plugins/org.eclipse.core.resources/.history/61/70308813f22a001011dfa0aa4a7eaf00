@@ -1,0 +1,7 @@
+package com.acorn.day1prac;
+
+@Data
+public class Member {
+	String id;
+	String pw;
+}

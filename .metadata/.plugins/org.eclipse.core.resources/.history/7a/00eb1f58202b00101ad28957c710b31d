@@ -1,0 +1,25 @@
+package com.acorn.day1prac.실습;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping(value = "/movie")
+public class MovieController {
+	@RequestMapping(value = "/gomovieform", method=RequestMethod.GET)
+	public String setMovie() {
+		return "movieForm";
+	}
+	
+	@RequestMapping(value = "/showmovieform")
+	public String showMovie(Movie movie,Model model) {
+		
+		MovieForm m = new MovieForm();
+		m.list.add(movie);
+		
+		model.addAttribute("list",m.list);
+		return "showmovieForm";
+	}
+}

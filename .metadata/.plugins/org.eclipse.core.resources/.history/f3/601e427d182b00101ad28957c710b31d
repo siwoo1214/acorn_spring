@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>${num }단 출력 결과</p>
+	<% for(int i=1; i<10; i++) {%>
+		<p>${num } x <%=i %>  = </p>
+	<% } %>
+</body>
+</html>

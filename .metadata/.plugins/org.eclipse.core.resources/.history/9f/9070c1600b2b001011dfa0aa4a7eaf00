@@ -1,0 +1,23 @@
+package com.acorn.day1prac;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class ParamController2 {
+	@RequestMapping(value="/checkboxFrom", method = RequestMethod.GET)
+	public String view() {
+		return "checkboxView";
+	}
+	
+	@RequestMapping(value = "/paramT1", method = RequestMethod.POST)
+	public String checkbox(String[] likes) {
+		
+		for(String s : likes) {
+			System.out.println(s);
+		}
+		
+		return "redirect:/";
+	}
+}

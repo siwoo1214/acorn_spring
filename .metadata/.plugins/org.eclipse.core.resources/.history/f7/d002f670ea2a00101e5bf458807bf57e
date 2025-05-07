@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- 여기는 직접 치는 코드임 -->	
+	<!-- spring이 관리하는 객체, bean=스프링이 객체를 생성하고 관리함 -->
+	<bean name="/test" class="com.acorn.day1prac/AController"></bean>
+</beans>

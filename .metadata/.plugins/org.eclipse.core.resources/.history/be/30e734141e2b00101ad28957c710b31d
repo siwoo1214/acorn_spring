@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="${pageContext.request.contextPath}/music/updateMusic" method="post">
+	<p>첫번쨰 신청곡</p>
+		<input type="text" name="musics[0].songname">곡명 
+		<input type="text" name="musics[0].singer">가수 
+		<input type="number" name="musics[0].howlong">곡 길이 
+	<p>두번쨰 신청곡</p>
+		<input type="text" name="musics[1].songname">곡명 
+		<input type="text" name="musics[1].singer">가수 
+		<input type="number" name="musics[1].howlong">곡 길이 
+		<button type="submit">곡 등록</button>
+	</form>
+</body>
+</html>

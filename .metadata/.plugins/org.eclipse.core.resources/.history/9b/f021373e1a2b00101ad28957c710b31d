@@ -1,0 +1,9 @@
+package com.acorn.day1prac.실습;
+
+import lombok.Data;
+
+@Data
+public class Music {
+	private String singer;
+	private String songname;
+}

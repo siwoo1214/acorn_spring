@@ -1,0 +1,29 @@
+package com.acorn.day1prac.실습;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/music")
+public class MusicController {
+	@RequestMapping(value = "/musicForm", method=RequestMethod.GET)
+	public String form() {
+		return "musicForm";
+	}
+	
+	@RequestMapping(value = "/updateMusic", method=RequestMethod.POST)
+	public String updateMusic(@ModelAttribute MusicForm musics, Model model) {
+		
+		for(Music a : musics.getMusics()) {
+			System.out.println(a.getSongname());
+			System.out.println(a.getSinger());
+			System.out.println(a.getHowlong());
+		}
+		model.addAttribute("musics",musics);
+		
+		return "musicShow";
+	}
+}

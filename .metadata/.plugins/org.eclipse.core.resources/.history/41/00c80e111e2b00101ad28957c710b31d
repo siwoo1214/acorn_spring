@@ -1,0 +1,10 @@
+package com.acorn.day1prac.실습;
+
+import java.util.ArrayList;
+
+import lombok.Data;
+
+@Data
+public class MusicForm {
+	ArrayList<Music> musics = new ArrayList<>();
+}

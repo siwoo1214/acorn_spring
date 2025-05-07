@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>GOAT</h2>
+	<img src="<%=request.getContextPath()%>/resources/imgs/${data}">
+	
+</body>
+</html>

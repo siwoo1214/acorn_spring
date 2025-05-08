@@ -1,12 +1,11 @@
 package com.acorn.day1prac;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class Dan3Controller {
-	@RequestMapping(value = "/dan3", method = RequestMethod.GET)
+	@GetMapping("/dan3")
 	public String dan3print() {
 		
 		return "dan3";

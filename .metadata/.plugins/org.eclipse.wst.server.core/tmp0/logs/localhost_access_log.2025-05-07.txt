@@ -402,3 +402,17 @@
 0:0:0:0:0:0:0:1 - - [07/May/2025:22:51:46 +0900] "GET /day1prac/WEB-INF/classes/com/acorn/day1prac/%EC%8B%A4%EC%8A%B5/MovieController.java HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [07/May/2025:23:00:03 +0900] "GET /day1prac/WEB-INF/classes/com/acorn/day1prac/%EC%8B%A4%EC%8A%B5/MovieHomeController.java HTTP/1.1" 404 721
 127.0.0.1 - - [07/May/2025:23:00:03 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [07/May/2025:23:00:36 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:00:37 +0900] "GET /day1prac/WEB-INF/classes/com/acorn/day1prac/%EC%8B%A4%EC%8A%B5/MovieHomeController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:57:41 +0900] "GET /day1prac/WEB-INF/classes/com/acorn/day1prac/%EC%8B%A4%EC%8A%B5/MovieController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:57:49 +0900] "GET /day1prac/movie/home1 HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:58:12 +0900] "GET /day1prac/movie/movieForm HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:58:25 +0900] "GET /day1prac/movie/savemovie?title=%ED%8C%8C%EB%B0%94%EB%A1%9C%ED%8B%B0&director=%EB%B0%95%EC%8B%9C%EC%9A%B0+&runtime=121 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:58:25 +0900] "GET /day1prac/movie/showMovie HTTP/1.1" 200 259
+127.0.0.1 - - [07/May/2025:23:59:13 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:14 +0900] "GET /day1prac/WEB-INF/classes/com/acorn/day1prac/%EC%8B%A4%EC%8A%B5/MovieController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:20 +0900] "GET /day1prac/movie/movieForm HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:34 +0900] "GET /day1prac/movie/savemovie?title=vkqkfhxl+&director=siwoo&runtime=123 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:34 +0900] "GET /day1prac/movie/showMovie HTTP/1.1" 200 251
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:47 +0900] "GET /day1prac/movie/savemovie?title=hello+world&director=park&runtime=321 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/May/2025:23:59:47 +0900] "GET /day1prac/movie/showMovie HTTP/1.1" 200 326

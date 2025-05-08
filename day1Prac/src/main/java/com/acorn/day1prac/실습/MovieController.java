@@ -2,6 +2,7 @@ package com.acorn.day1prac.실습;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -10,10 +11,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 public class MovieController {
     MovieForm m = new MovieForm();
+
+//    @RequestMapping("/")
+//    public String redirectToMovieHome() {
+//        return "redirect:/movie/home1";
+//    }
+
+//    @RequestMapping("/home1")
+//    public String home() {
+//        return "home1";
+//    }
     
-    @RequestMapping(value = "/movieForm", method=RequestMethod.GET)
+    @GetMapping("/movieForm")
     public String setMovie() {
-        return "movieForm";  // /movie/movieForm 으로 접근 가능
+        return "movieForm";
     }
 
     @RequestMapping(value = "/savemovie")

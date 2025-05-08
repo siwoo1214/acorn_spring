@@ -108,6 +108,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\siwoo\Desktop\에이콘_spring\aopSample"/>
+			<item value="C:\Users\siwoo\Desktop\에이콘_spring\di"/>
+			<item value="C:\Users\siwoo\Desktop\에이콘_spring\day2Prac"/>
+			<item value="C:\Users\siwoo\Desktop\에이콘_spring\day2"/>
 			<item value="C:\Users\siwoo\Desktop\에이콘_spring\day1Prac"/>
 			<item value="C:\Users\siwoo\Desktop\에이콘_spring\day1"/>
 			<item value="C:\Users\siwoo\Desktop\에이콘_spring\controllerPrj"/>

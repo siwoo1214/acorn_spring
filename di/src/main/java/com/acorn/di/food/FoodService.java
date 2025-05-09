@@ -8,7 +8,7 @@ import lombok.Setter;
 @Component
 public class FoodService {
 
-	@Setter( onMethod_ = @Autowired)
+	@Setter(onMethod_ = @Autowired)
 	Food food;
 	
 	public String test1() {

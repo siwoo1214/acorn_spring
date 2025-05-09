@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="a">    <!-- namespace는 아무렇게나 적어도 상관없음 -->
+    <!-- Member타입으로 받겠다 Member는 mybatis-config에서 alias를 준 이름 -->
+    <select id="selectAll" resultType="Member">
+        SELECT *
+        FROM memberacorn       
+    </select>
+    
+    <select id="selectAll2" resultType="map">
+        SELECT *
+        FROM memberacorn       
+    </select>
+    
+    <select id="selectOne" parameterType="String" resultType="Member">
+        SELECT *
+        FROM memberacorn where id = #{id}
+    </select>
+    
+	<insert id="insert" parameterType="Member">
+		insert into memberacorn(id,pwd,name) 
+		values ( #{id}, #{pwd}, #{name})
+ 	</insert>
+ 	
+ 	<update id="update" parameterType="Member">
+ 		update memberacorn
+ 		set pwd = #{pwd}, name=#{name}
+ 		where id = #{id}
+ 	</update>
+ 	
+ 	<!-- 레포지토리에 a.뭐시기 쓸라고 id를 설정함 -->
+ 	<delete id="delete" parameterType="Member">
+ 		delete from memberacorn where id = #{id}
+ 	</delete>
+ 	
+ 	<delete id="deleteAll">
+ 		delete from memberacorn
+ 	</delete>
+</mapper>

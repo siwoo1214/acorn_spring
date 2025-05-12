@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Lombok"/>
+		<item key="selection" value="fileDir"/>
 		<list key="findhistory">
+			<item value="fileDir"/>
 			<item value="lombok"/>
 			<item value="11"/>
 			<item value="LOMBOK"/>
@@ -18,8 +19,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1065"/>
-		<item key="DIALOG_Y_ORIGIN" value="463"/>
+		<item key="DIALOG_X_ORIGIN" value="1798"/>
+		<item key="DIALOG_Y_ORIGIN" value="203"/>
 		<item key="DIALOG_WIDTH" value="393"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

@@ -10,5 +10,9 @@
 		select * from player
 	</select>
 	
+	<select id="selectOne" parameterType="String" resultType="Player">
+		select * from player where name = #{name}
+	</select>
+	
 	
 </mapper>

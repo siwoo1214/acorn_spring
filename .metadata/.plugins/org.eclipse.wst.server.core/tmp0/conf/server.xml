@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\controllerPrj" path="/web" reloadable="true" source="org.eclipse.jst.jee.server:controllerPrj"/><Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day3" path="/day3" reloadable="true" source="org.eclipse.jst.jee.server:day3"/><Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\batisPrj" path="/batis" reloadable="true" source="org.eclipse.jst.jee.server:batisPrj"/><Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day3prac" path="/prac" reloadable="true" source="org.eclipse.jst.jee.server:day3prac"/></Host>
+      <Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\siwoo\Desktop\에이콘_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day4prac" path="/prac4" reloadable="true" source="org.eclipse.jst.jee.server:day4prac"/></Host>
     </Engine>
   </Service>
 </Server>

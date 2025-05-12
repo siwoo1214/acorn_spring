@@ -16,4 +16,8 @@ public class PlayerRepository {
 	public List<Player> selectAll(){
 		return session.selectList("player.a");
 	}
+	
+	public Player selectOne(String name) {
+		return session.selectOne("player.selectOne",name);
+	}
 }

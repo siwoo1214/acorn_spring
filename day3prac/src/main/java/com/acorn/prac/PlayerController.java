@@ -19,4 +19,11 @@ public class PlayerController {
 		System.out.println(list);
 		return "test";
 	}
+	
+	@GetMapping("/selectOne")
+	public String getOne(String name) {
+		Player p = repo.selectOne(name);
+		System.out.println(p);
+		return "test";
+	}
 }

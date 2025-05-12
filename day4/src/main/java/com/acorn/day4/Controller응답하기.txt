@@ -1,0 +1,15 @@
+
+-- view 응답하기
+String  :view이름
+void : 매핑이름을 view 
+
+
+
+--데이터 응답하기
+@ResponseBody
+객체반환 ->json으로 변환
+
+@ResponseEntity<T>
+
+
+
